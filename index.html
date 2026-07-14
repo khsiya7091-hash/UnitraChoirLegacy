@@ -1,143 +1,324 @@
-<!DOCTYPE html>
+<!--index.html-->
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NextWebsite</title>
-    <link rel="stylesheet" href="styles.css">
-    <<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=
-Kumbh+Sans:wght,YOPQ@100..900,300&family=
-Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-</head>
-<body>
-<nav class="navbar">
-    <div class="navbar__container">
-        <a href="/" id="navbar__logo"><i class= "fas fa-gem"> </i>Next</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UNITRA Choir Legacy</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;400;600;700;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- favicon -->
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+  </head>
+  <body>
+    <!-- ===== NAVBAR ===== -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="index.html" id="navbar__logo"
+          ><i class="fas fa-music"></i> UNITRA Legacy</a
+        >
         <div class="navbar__toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
-        <ul class="navbar-menu">
-        <li class="navbar_item">
-            <a href="/" class="navbar__links">
-                Home
-            </a>
-        </li>
-        <li class="navbar_item">
-            <a href="/tech.html" class="navbar__links">
-                Tech
-            </a>
-        </li>
-        <li class="navbar_item">
-            <a href="/" class="navbar__links">
-                Products
-            </a>
-        </li>
-        <li class="navbar_btn">
-            <a href="/" class="button">
-                Sign Up
-            </a>
-        </li>
+        <ul class="navbar__menu" id="navbar-menu">
+          <li><a href="index.html" class="navbar__links">Home</a></li>
+          <li><a href="#about" class="navbar__links">About</a></li>
+          <li><a href="#mission" class="navbar__links">Mission</a></li>
+          <li>
+            <a href="tech.html" class="navbar__links">Events &amp; News</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#join" class="button">Join Us</a>
+          </li>
         </ul>
-    </div>
-</nav>
-<!-- Hero Section-->
- <div class="main"> 
-    <div class=" main__container">
-        <div class="main__content">
-            <h1>NEXT GENERATION</h1>
-            <h2>TECHNOLOGY</h2>
-            <p>See what makes us different.</p>
-            <button class="main__btn"> <a href="/"> Get Started</a></button>
-        </div>
-        <div class="main__img--container">
-            <img src="images/pic1.svg" alt="pic" id="main__img">
-        </div>
-    </div>
- </div>
- <!--Services-->
- <div class="services">
-    <h1> See what hype is about </h1> 
-<div class="services__container">
-    <div class="services__card">
-        <h2>Experience Bliss</h2>
-        <p>AI Powered Technology</p>
-        <button> Get Started</button>
-</div>
- <div class="services__card">
-        <h2>Are You Ready?</h2>
-        <p>Take the leap</p>
-        <button> Get Started</button>
- </div>
-</div>
-</div>
-<!-- Footer Section-->
- <div class="footer__container">
-    <div class="footer__links">
-        <div class="footer__links--wrapper">
-        <div class="footer__link--items">
-            <h2>About Us</h2>
-            <a href="/">How It Works</a>
-            <a href="/">Testimonials</a>
-            <a href="/">Careers</a>
-            <a href="/">Investments</a>
-            <a href="/">Terms of Service</a>
-        </div>
+      </div>
+    </nav>
 
-         <div class="footer__link--items">
-            <h2>About Us</h2>
-            <a href="/">How It Works</a>
-            <a href="/">Testimonials</a>
-            <a href="/">Careers</a>
-            <a href="/">Investments</a>
-            <a href="/">Terms of Service</a>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="home">
+      <div class="hero__container">
+        <div class="hero__content">
+          <h1>UNITRA Choir Legacy</h1>
+          <div class="subtitle"><i>Ex Carmine Unitas Est</i></div>
+          <p class="tagline">
+            Preserving the legacy of the University of Transkei Choir —
+            inspiring future generations through choral excellence.
+          </p>
+          <a href="#about" class="hero__btn">Discover Our Story</a>
         </div>
-    </div>
+        <div class="hero__img">
+          <img src="images/UnitraLogo.png" alt="UNITRA Choir Legacy" />
+        </div>
+      </div>
+    </section>
 
-     <div class="footer__links--wrapper">
-        <div class="footer__link--items">
-            <h2>About Us</h2>
-            <a href="/">How It Works</a>
-            <a href="/">Testimonials</a>
-            <a href="/">Careers</a>
-            <a href="/">Investments</a>
-            <a href="/">Terms of Service</a>
+    <!-- ===== INTRODUCTION / ABOUT ===== -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">Introduction</h2>
+        <p style="font-size: 1.2rem; max-width: 900px; margin-bottom: 2rem">
+          The University of Transkei (UNITRA) — now Walter Sisulu University —
+          has a rich history of fostering musical talent through its choir. As
+          former members, we have established the
+          <strong>UNITRA Choir Legacy</strong> to preserve and enhance this
+          esteemed legacy.
+        </p>
+        <div class="grid-2">
+          <div class="card">
+            <h3>Who We Are</h3>
+            <p>
+              The UNITRA Choir Legacy is a non-profit organization dedicated to
+              institutionalizing yearly reunions, engaging in local and
+              international festivals, and highlighting the choir's historical
+              importance.
+            </p>
+          </div>
+          <div class="card">
+            <h3>Our Beneficiaries</h3>
+            <ul>
+              <li>
+                <strong>Walter Sisulu University</strong> — music training for
+                historically disadvantaged individuals.
+              </li>
+              <li>
+                <strong>Schools &amp; rural communities</strong> — participating
+                in traditional festivals and transforming raw talent into
+                professional artistry.
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
+    </section>
 
-         <div class="footer__link--items">
-            <h2>Social Media</h2>
-            <a href="/">Instagram</a>
-            <a href="/">Facebook</a>
-            <a href="/">YouTube</a>
-            <a href="/">Twitter</a>
+    <!-- ===== MISSION & VISION ===== -->
+    <section class="section bg-light" id="mission">
+      <div class="container">
+        <div class="grid-2">
+          <div class="card" style="border-left-color: #f3efef">
+            <h3>Mission</h3>
+            <p style="font-size: 1.2rem">
+              To ensure the enduring legacy of the UNITRA Choir.
+            </p>
+          </div>
+          <div class="card" style="border-left-color: #37f026">
+            <h3>Vision</h3>
+            <p style="font-size: 1.2rem">
+              To be a leading non-profit organization in the promotion of choral
+              music, inspiring future generations and honoring the legacy of the
+              UNITRA Choir.
+            </p>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- ===== HISTORICAL BACKGROUND ===== -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Historical Background</h2>
+        <div class="highlight">
+          <p style="font-size: 1.2rem">
+            Established in <strong>1987</strong>, the UNITRA Choir promoted
+            choral music across South Africa, attracting members from all
+            faculties. It became a unifying force for student activism,
+            providing musical education and instilling ethical values.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PURPOSE & OBJECTIVES ===== -->
+    <section class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">Purpose &amp; Objectives</h2>
+        <div class="grid-2">
+          <div class="card">
+            <h3>Core Activities</h3>
+            <ul>
+              <li>
+                Engage actively in local and international music festivals.
+              </li>
+              <li>
+                Partner with WSU Alumni Committee to enhance cultural
+                initiatives.
+              </li>
+              <li>
+                Reinstate community initiatives: scholarships, conductor
+                training, opera development, and adjudication.
+              </li>
+              <li>
+                Form partnerships with <em>Jazz Against Apartheid</em> and other
+                arts organizations to promote Chora-Jazz in the Eastern Cape.
+              </li>
+            </ul>
+          </div>
+          <div class="card">
+            <h3>Achievements</h3>
+            <ul>
+              <li>
+                Participated in SATICA, TRACA, and Old Mutual National Choir
+                Festival.
+              </li>
+              <li>
+                <strong>1995</strong> — cultural exchange with Germany, training
+                at Richard Wagner Music Festival, contributing to an archive of
+                African music.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ORGANIZATIONAL STRUCTURE ===== -->
+    <section class="section" id="structure">
+      <div class="container">
+        <h2 class="section-title">Organizational Structure</h2>
+        <div class="structure-grid">
+          <div class="structure-item">
+            <h4>Board</h4>
+            Five directors and patrons (Non-Executive Directors).
+          </div>
+          <div class="structure-item">
+            <h4>Executive Committee</h4>
+            Elected former members: Chairperson, Secretary, Treasurer, PRO.
+          </div>
+          <div class="structure-item">
+            <h4>Sub‑committees</h4>
+            Event planning, fundraising, alumni engagement.
+          </div>
+          <div class="structure-item">
+            <h4>UNITRA Choir Legacy</h4>
+            All former members (since 1987) — non‑refundable monthly fee
+            <strong>R300</strong>.
+          </div>
+          <div class="structure-item">
+            <h4>Associate Members</h4>
+            Non‑singing members with same benefits and fee
+            <strong>R300</strong>/month; participate in sub‑committees.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== IMPLEMENTATION PLAN ===== -->
+    <section class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">Implementation Plan</h2>
+        <div class="plan-list">
+          <div class="plan-step">
+            1. Establishment
+            <span>Governing board &amp; legal NPO status.</span>
+          </div>
+          <div class="plan-step">
+            2. Event Planning
+            <span
+              >Biennial gatherings and festivals.<br /><strong
+                >First festival:</strong
+              >
+              WSU Main Campus (launch).<br /><strong>Upcoming:</strong> South
+              Korea (dependent on funding).</span
+            >
+          </div>
+          <div class="plan-step">
+            3. Marketing
+            <span
+              >Promotional materials, digital presence, community
+              engagement.</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== RESOURCES & BUDGET ===== -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Resources &amp; Budget</h2>
+        <div class="card" style="border-left-color: #e63946">
+          <p>
+            <strong>Member contributions:</strong> minimum non‑refundable
+            R300/month.
+          </p>
+          <p>
+            <strong>Alternative funding:</strong> charitable donations,
+            sponsorships, fundraising.
+          </p>
+          <p>
+            A comprehensive financial strategy ensures transparency and
+            accountability.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== JOIN / CTA ===== -->
+    <section class="section bg-light" id="join">
+      <div class="container" style="text-align: center">
+        <h2 class="section-title center">Join the Legacy</h2>
+        <p style="font-size: 1.2rem; max-width: 700px; margin: 0 auto 2rem">
+          Whether you sang with the UNITRA Choir or wish to support our mission,
+          become part of a movement that celebrates choral excellence.
+        </p>
+        <a
+          href="#"
+          class="hero__btn"
+          style="background: #1e1e1e; color: #f5c842"
+          >Become a Member</a
+        >
+        <div style="margin-top: 1.5rem">
+          <a
+            href="https://www.tiktok.com/@unitrachoir_legacy"
+            target="_blank"
+            style="font-size: 1.3rem; color: #1e1e1e; margin: 0 1rem"
+            ><i class="fab fa-tiktok"></i> Follow us on TikTok</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+  <div class="footer__content">
+    <div class="footer__logo">
+      <span class="logo-icon" style="display: inline-block; width: 40px; height: 40px; background: url('images/UnitraLogo.png') center/contain no-repeat; 
+      vertical-align: middle; margin-right: 10px;"></span>
+      UNITRA Legacy
     </div>
-    <div class="social__media">
-        <div class="social__media--wrap">
-            <div class="footer__logo">
-                <a href="/" id="footer__logo"><i class= "fas fa-gem"> </i>Next</a>
-            </div>
-            <p class="website__right"> NEXT 2020. All rights reserved</p>
-            <div class="social__icons">
-                <a href="/" class = "social__icon--link" target="_blank">
-                    <i class="fab fa-facebook"></i>
-                </a>
-                <a href="/" class = "social__icon--link" target="_blank">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="/" class = "social__icon--link" target="_blank">
-                    <i class="fab fa-twitter"></i>
-                </a>
-                <a href="/" class = "social__icon--link" target="_blank">
-                    <i class="fab fa-youtude"></i>
-                </a>
-            </div>
-        </div>      
-    </div>
- </div>
-<script src= "app.js"></script>
-</body>
+        </div>
+        <div class="footer__social">
+          <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.tiktok.com/@unitrachoir_legacy" target="_blank"
+            ><i class="fab fa-tiktok"></i
+          ></a>
+        </div>
+      </div>
+      <div class="footer__copy">
+        &copy; 2026 UNITRA Choir Legacy. All rights reserved. <br />
+        <span style="font-size: 0.9rem; color: #666"
+          ><i>Ex Carmine Unitas Est</i></span
+        >
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
 </html>
