@@ -314,6 +314,22 @@ a {
   color: #444;
 }
 
+/* ----- PHOTO STRIP ----- */
+.photo-strip {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 2rem;
+  background: #1e1e1e;
+}
+.photo-strip img {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  display: block;
+}
+
 /* ----- FOOTER ----- */
 .footer {
   background: #1a1a1a;
