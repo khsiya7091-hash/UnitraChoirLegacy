@@ -314,6 +314,16 @@ a {
   color: #444;
 }
 
+/* ----- CARD IMAGE ----- */
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-top: 1rem;
+  display: block;
+}
+
 /* ----- PHOTO STRIP ----- */
 .photo-strip {
   display: flex;
