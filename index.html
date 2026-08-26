@@ -17,18 +17,18 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
    <!-- Favicon -->
-<link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-<link rel="icon" type="image/svg+xml" href="favicon/favicon.svg">
-<link rel="shortcut icon" href="favicon/favicon.ico">
-<link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-<link rel="manifest" href="favicon/site.webmanifest">
+<link rel="icon" type="image/png" sizes="96x96" href="../favicon/favicon-96x96.png">
+<link rel="icon" type="image/svg+xml" href="../favicon/favicon.svg">
+<link rel="shortcut icon" href="../favicon/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+<link rel="manifest" href="../favicon/site.webmanifest">
   </head>
   <body>
     <!-- ===== NAVBAR ===== -->
     <nav class="navbar">
       <div class="navbar__container">
         <a href="index.html" id="navbar__logo">
-    <img src="images/UnitraLogo.png"
+    <img src="../images/UnitraLogo.png"
          alt="UNITRA Choir Legacy Logo"
          class="logo">
     <span>UNITRA Choir Legacy</span>
@@ -44,6 +44,12 @@
           <li><a href="#mission" class="navbar__links">Mission</a></li>
           <li>
             <a href="tech.html" class="navbar__links">Events &amp; News</a>
+          </li>
+          <li>
+            <a href="video.html" class="navbar__links">Video</a>
+          </li>
+          <li class="navbar__btn">
+            <a href="#join" class="button">Join Us</a>
           </li>
         </ul>
       </div>
@@ -62,7 +68,7 @@
           <a href="#about" class="hero__btn">Discover Our Story</a>
         </div>
         <div class="hero__img">
-          <img src="images/UnitraLogo.png" alt="UNITRA Choir Legacy" />
+          <img src="../images/UnitraLogo.png" alt="UNITRA Choir Legacy" />
         </div>
       </div>
     </section>
@@ -80,6 +86,7 @@
         </p>
         <div class="grid-2">
           <div class="card">
+            <img class="card-image" src="../images/WhatsApp%20Image%202026-08-21%20at%2019.52.32.jpeg" alt="Who We Are" />
             <h3>Who We Are</h3>
             <p>
               The UNITRA Choir Legacy is a non-profit organization dedicated to
@@ -89,6 +96,7 @@
             </p>
           </div>
           <div class="card">
+            <img class="card-image" src="../images/WhatsApp%20Image%202026-08-21%20at%2019.52.33.jpeg" alt="Our Beneficiaries" />
             <h3>Our Beneficiaries</h3>
             <ul>
               <li>
@@ -111,12 +119,14 @@
       <div class="container">
         <div class="grid-2">
           <div class="card" style="border-left-color: #f3efef">
+            <img class="card-image" src="../images/WhatsApp%20Image%202026-08-21%20at%2019.52.34.jpeg" alt="Mission" />
             <h3>Mission</h3>
             <p style="font-size: 1.2rem">
               To ensure the enduring legacy of the UNITRA Choir.
             </p>
           </div>
-          <div class="card" style="border-left-color: #37f026">
+          <div class="card" style="border-left-color: #0d7a3d">
+            <img class="card-image" src="../images/WhatsApp%20Image%202026-08-21%20at%2019.52.35.jpeg" alt="Vision" />
             <h3>Vision</h3>
             <p style="font-size: 1.2rem">
               To be a leading non-profit organization in the promotion of choral
@@ -133,6 +143,7 @@
       <div class="container">
         <h2 class="section-title">Historical Background</h2>
         <div class="highlight">
+          <img class="section-image" src="../images/WhatsApp%20Image%202026-08-21%20pic3.jpeg" alt="Historical Background" />
           <p style="font-size: 1.2rem">
             Established in <strong>1987</strong>, the UNITRA Choir promoted
             choral music across South Africa, attracting members from all
@@ -149,6 +160,7 @@
         <h2 class="section-title">Purpose &amp; Objectives</h2>
         <div class="grid-2">
           <div class="card">
+            <img class="card-image" src="../images/WhatsApp%20Image%202026-08-21%20PIC4.jpeg" alt="Core Activities" />
             <h3>Core Activities</h3>
             <ul>
               <li>
@@ -169,6 +181,7 @@
             </ul>
           </div>
           <div class="card">
+            <img class="card-image" src="../images/WhatsApp%20Image%202026-08-21%20pic5.jpeg" alt="Achievements" />
             <h3>Achievements</h3>
             <ul>
               <li>
@@ -276,11 +289,33 @@
           Whether you sang with the UNITRA Choir or wish to support our mission,
           become part of a movement that celebrates choral excellence.
         </p>
+        <a
+          href="https://www.tiktok.com/@unitrachoir_legacy"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hero__btn"
+          style="background: #1e1e1e; color: #f5c842"
+          >Become a Member</a
+        >
         <div style="margin-top: 1.5rem">
           <a
             href="https://www.tiktok.com/@unitrachoir_legacy"
             target="_blank"
-            style="font-size: 1.3rem; color: #1e1e1e; margin: 0 1rem"
+            rel="noopener noreferrer"
+            style="
+              display: inline-flex;
+              align-items: center;
+              justify-content: center;
+              gap: 0.75rem;
+              background: #0d7a3d;
+              color: #fff;
+              padding: 0.9rem 1.8rem;
+              border-radius: 40px;
+              font-size: 1.1rem;
+              font-weight: 700;
+              text-decoration: none;
+              box-shadow: 0 8px 20px rgba(13, 122, 61, 0.25);
+            "
             ><i class="fab fa-tiktok"></i> Follow us on TikTok</a
           >
         </div>
@@ -291,13 +326,13 @@
     <footer class="footer">
   <div class="footer__content">
     <div class="footer__logo">
-      <span class="logo-icon" style="display: inline-block; width: 40px; height: 40px; background: url('images/UnitraLogo.png') center/contain no-repeat; 
+      <span class="logo-icon" style="display: inline-block; width: 40px; height: 40px; background: url('../images/UnitraLogo.png') center/contain no-repeat; 
       vertical-align: middle; margin-right: 10px;"></span>
       UNITRA Legacy
     </div>
         </div>
         <div class="footer__social">
-          <a href="https://www.tiktok.com/@unitrachoir_legacy" target="_blank"
+          <a href="https://www.tiktok.com/@unitrachoir_legacy" target="_blank" rel="noopener noreferrer"
             ><i class="fab fa-tiktok"></i
           ></a>
         </div>
