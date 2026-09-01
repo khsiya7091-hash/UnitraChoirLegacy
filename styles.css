@@ -141,7 +141,9 @@ a {
   font-weight: 900;
   background: linear-gradient(135deg, var(--unitra-green) 0%, #f8f6f6 80%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
+  color: transparent;
   line-height: 1.1;
 }
 .hero__content .subtitle {
