@@ -424,7 +424,12 @@ a {
   margin-bottom: 0.65rem;
 }
 
-.contact-panel a {
+.contact-panel p a {
+  color: #e8efe7;
+  text-decoration: underline;
+}
+
+.contact-panel .contact-cta {
   display: block;
   margin-top: 0.55rem;
   text-align: center;
