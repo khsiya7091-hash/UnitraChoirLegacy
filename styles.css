@@ -120,7 +120,10 @@ a {
 
 /* ----- HERO ----- */
 .hero {
-  background: #1e1e1e;
+  background:
+    linear-gradient(rgba(15, 15, 15, 0.72), rgba(15, 15, 15, 0.72)),
+    url("../images/WhatsApp%20Image%202026-08-21%20at%2019.52.32.jpeg")
+      center/cover no-repeat;
   color: #fff;
   padding: 3rem 0 4rem;
   border-bottom: 6px solid var(--unitra-green);
@@ -290,6 +293,21 @@ a {
 
 .bg-light {
   background: #f8f5f0;
+}
+
+.section--photo {
+  background:
+    linear-gradient(rgba(18, 18, 18, 0.6), rgba(18, 18, 18, 0.6)),
+    var(--section-bg) center/cover no-repeat;
+}
+
+.section--photo > .container > .section-title,
+.section--photo > .container > p {
+  color: #fff;
+}
+
+.section--photo > .container > .section-title::after {
+  background: #f5c842;
 }
 
 .highlight {
