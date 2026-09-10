@@ -305,6 +305,18 @@ a {
     var(--section-bg) center/cover no-repeat;
 }
 
+.section--about {
+  --section-bg: url("../images/WhatsApp%20Image%202026-08-21%20at%2019.52.33.jpeg");
+}
+
+.section--mission {
+  --section-bg: url("../images/WhatsApp%20Image%202026-08-21%20at%2019.52.34.jpeg");
+}
+
+.section--history {
+  --section-bg: url("../images/image.png");
+}
+
 .section--photo > .container > .section-title,
 .section--photo > .container > p {
   color: #fff;
@@ -312,6 +324,10 @@ a {
 
 .section--photo > .container > .section-title::after {
   background: #f5c842;
+}
+
+.section--photo .card {
+  background: rgba(255, 255, 255, 0.95);
 }
 
 .highlight {
