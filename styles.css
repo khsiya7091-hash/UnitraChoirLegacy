@@ -102,6 +102,12 @@ a {
   border-radius: 4px;
 }
 
+.navbar__toggle:focus-visible {
+  outline: 2px solid #9ed58f;
+  outline-offset: 4px;
+  border-radius: 4px;
+}
+
 .navbar__toggle {
   display: none;
   flex-direction: column;
