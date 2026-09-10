@@ -317,8 +317,11 @@ a {
   --section-bg: url("../images/image.png");
 }
 
-.section--photo > .container > .section-title,
-.section--photo > .container > p {
+.section--photo > .container {
+  color: #fff;
+}
+
+.section--photo > .container > .section-title {
   color: #fff;
 }
 
