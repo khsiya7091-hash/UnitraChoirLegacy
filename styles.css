@@ -317,11 +317,8 @@ a {
   --section-bg: url("../images/image.png");
 }
 
-.section--photo > .container {
-  color: #fff;
-}
-
-.section--photo > .container > .section-title {
+.section--photo > .container > .section-title,
+.section--photo > .container > p {
   color: #fff;
 }
 
@@ -331,6 +328,11 @@ a {
 
 .section--photo .card {
   background: rgba(255, 255, 255, 0.95);
+  color: #1e1e1e;
+}
+
+.section--photo .highlight {
+  background: rgba(20, 20, 20, 0.86);
 }
 
 .highlight {
