@@ -95,6 +95,13 @@ a {
   background: var(--green-dark);
 }
 
+.navbar__links:focus-visible,
+.navbar__btn .button:focus-visible {
+  outline: 2px solid #9ed58f;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
 .navbar__toggle {
   display: none;
   flex-direction: column;
@@ -176,6 +183,14 @@ a {
 
 .hero__btn:hover {
   background: var(--green-dark);
+}
+
+.hero__btn:focus-visible,
+.archive-actions a:focus-visible,
+.listen-btn:focus-visible,
+.contact-panel .contact-cta:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
 }
 
 .hero__btn--alt {
